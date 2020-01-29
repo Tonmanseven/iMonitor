@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4053C9D5333729FC6F2D08A2 /* Pods_iMonitor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DB19AA909FBE93B87934799 /* Pods_iMonitor.framework */; };
+		4D0428F0233A2F4100F6F26B /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 4D0428EF233A2F4100F6F26B /* Podfile */; };
+		4D35115F233E7F15001E0811 /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D35115E233E7F15001E0811 /* TabBarVC.swift */; };
+		4D442D362339130A00F989E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D442D352339130A00F989E7 /* ViewController.swift */; };
+		4D442D3823393E0700F989E7 /* PostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D442D3723393E0700F989E7 /* PostTableViewCell.xib */; };
+		4D442D3B23393ED200F989E7 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D442D3A23393ED200F989E7 /* PostTableViewCell.swift */; };
+		4D442D3D233958BB00F989E7 /* LogsTableViewC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D442D3C233958BB00F989E7 /* LogsTableViewC.swift */; };
+		4D4BBB502338106900196731 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D4BBB4F2338106900196731 /* Main.storyboard */; };
+		4D6734B6233772550080DA92 /* DateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6734B5233772550080DA92 /* DateTableViewCell.swift */; };
+		4D6734B8233774BC0080DA92 /* DatePickerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6734B7233774BC0080DA92 /* DatePickerTableViewCell.swift */; };
+		4D6734BB233779870080DA92 /* DatePickerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D6734BA233779870080DA92 /* DatePickerTableViewCell.xib */; };
+		4D6734BF2337F3B90080DA92 /* DateTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D6734BE2337F3B90080DA92 /* DateTableViewCell.xib */; };
+		4D6D814D234016B30003BF57 /* ChartLineVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D814C234016B30003BF57 /* ChartLineVC.swift */; };
+		4D72E076233A36C800FA9CD0 /* LogsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D72E075233A36C800FA9CD0 /* LogsTableViewCell.swift */; };
+		4DCD72D82333F59300A03F2C /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCD72D72333F59300A03F2C /* Models.swift */; };
+		4DEBDCD52332375E003F260E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEBDCD42332375E003F260E /* AppDelegate.swift */; };
+		4DEBDCDC2332375F003F260E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DEBDCDB2332375F003F260E /* Assets.xcassets */; };
+		4DEBDCDF2332375F003F260E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DEBDCDD2332375F003F260E /* LaunchScreen.storyboard */; };
+		4DEBDCE723324AD4003F260E /* ProjectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEBDCE623324AD4003F260E /* ProjectCell.swift */; };
+		4DEBDCE9233252E1003F260E /* TableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEBDCE8233252E1003F260E /* TableVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4D0428EF233A2F4100F6F26B /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4D35115E233E7F15001E0811 /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
+		4D442D352339130A00F989E7 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = iMonitor/View/SelectPost/ViewController.swift; sourceTree = SOURCE_ROOT; };
+		4D442D3723393E0700F989E7 /* PostTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostTableViewCell.xib; sourceTree = "<group>"; };
+		4D442D3A23393ED200F989E7 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		4D442D3C233958BB00F989E7 /* LogsTableViewC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogsTableViewC.swift; sourceTree = "<group>"; };
+		4D4BBB4F2338106900196731 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		4D6734B5233772550080DA92 /* DateTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTableViewCell.swift; sourceTree = "<group>"; };
+		4D6734B7233774BC0080DA92 /* DatePickerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerTableViewCell.swift; sourceTree = "<group>"; };
+		4D6734BA233779870080DA92 /* DatePickerTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DatePickerTableViewCell.xib; sourceTree = "<group>"; };
+		4D6734BE2337F3B90080DA92 /* DateTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DateTableViewCell.xib; sourceTree = "<group>"; };
+		4D6D814C234016B30003BF57 /* ChartLineVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartLineVC.swift; sourceTree = "<group>"; };
+		4D72E075233A36C800FA9CD0 /* LogsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogsTableViewCell.swift; sourceTree = "<group>"; };
+		4DCD72D72333F59300A03F2C /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		4DEBDCD12332375E003F260E /* iMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DEBDCD42332375E003F260E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4DEBDCDB2332375F003F260E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DEBDCDE2332375F003F260E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4DEBDCE02332375F003F260E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DEBDCE623324AD4003F260E /* ProjectCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectCell.swift; sourceTree = "<group>"; };
+		4DEBDCE8233252E1003F260E /* TableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableVC.swift; sourceTree = "<group>"; };
+		6DB19AA909FBE93B87934799 /* Pods_iMonitor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iMonitor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91F4DA4AE40DE13D484C9C05 /* Pods-iMonitor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iMonitor.debug.xcconfig"; path = "Target Support Files/Pods-iMonitor/Pods-iMonitor.debug.xcconfig"; sourceTree = "<group>"; };
+		FA791CDD7119A02FA72335C1 /* Pods-iMonitor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iMonitor.release.xcconfig"; path = "Target Support Files/Pods-iMonitor/Pods-iMonitor.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DEBDCCE2332375E003F260E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4053C9D5333729FC6F2D08A2 /* Pods_iMonitor.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48A94638AF6A7F3075439689 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6DB19AA909FBE93B87934799 /* Pods_iMonitor.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D00C32F2332A63B0021E638 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4DEBDCD42332375E003F260E /* AppDelegate.swift */,
+				4D00C3312332A6820021E638 /* SelectPost */,
+				4D00C3302332A6530021E638 /* SelectProject */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4D00C3302332A6530021E638 /* SelectProject */ = {
+			isa = PBXGroup;
+			children = (
+				4DEBDCE8233252E1003F260E /* TableVC.swift */,
+				4DEBDCE623324AD4003F260E /* ProjectCell.swift */,
+			);
+			path = SelectProject;
+			sourceTree = "<group>";
+		};
+		4D00C3312332A6820021E638 /* SelectPost */ = {
+			isa = PBXGroup;
+			children = (
+				4D442D352339130A00F989E7 /* ViewController.swift */,
+				4D6D8149234013690003BF57 /* Select Charts  */,
+				4D6734B42337719E0080DA92 /* SelectLogs */,
+			);
+			path = SelectPost;
+			sourceTree = "<group>";
+		};
+		4D442D3923393EA200F989E7 /* PostCells */ = {
+			isa = PBXGroup;
+			children = (
+				4D6734B5233772550080DA92 /* DateTableViewCell.swift */,
+				4D6734B7233774BC0080DA92 /* DatePickerTableViewCell.swift */,
+				4D442D3A23393ED200F989E7 /* PostTableViewCell.swift */,
+				4D72E075233A36C800FA9CD0 /* LogsTableViewCell.swift */,
+			);
+			path = PostCells;
+			sourceTree = "<group>";
+		};
+		4D6734B42337719E0080DA92 /* SelectLogs */ = {
+			isa = PBXGroup;
+			children = (
+				4D35115E233E7F15001E0811 /* TabBarVC.swift */,
+				4D442D3C233958BB00F989E7 /* LogsTableViewC.swift */,
+				4D442D3923393EA200F989E7 /* PostCells */,
+			);
+			path = SelectLogs;
+			sourceTree = "<group>";
+		};
+		4D6734B9233779290080DA92 /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				4D6734BA233779870080DA92 /* DatePickerTableViewCell.xib */,
+				4D6734BE2337F3B90080DA92 /* DateTableViewCell.xib */,
+				4D442D3723393E0700F989E7 /* PostTableViewCell.xib */,
+			);
+			path = Xib;
+			sourceTree = "<group>";
+		};
+		4D6D8149234013690003BF57 /* Select Charts  */ = {
+			isa = PBXGroup;
+			children = (
+				4D6D814C234016B30003BF57 /* ChartLineVC.swift */,
+			);
+			path = "Select Charts ";
+			sourceTree = "<group>";
+		};
+		4DCD72D62333F57B00A03F2C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4DCD72D72333F59300A03F2C /* Models.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4DEBDCC82332375E003F260E = {
+			isa = PBXGroup;
+			children = (
+				4DEBDCD32332375E003F260E /* iMonitor */,
+				4DEBDCD22332375E003F260E /* Products */,
+				B0DB457E00B77E84006D9E57 /* Pods */,
+				48A94638AF6A7F3075439689 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4DEBDCD22332375E003F260E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DEBDCD12332375E003F260E /* iMonitor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DEBDCD32332375E003F260E /* iMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				4D6734B9233779290080DA92 /* Xib */,
+				4DCD72D62333F57B00A03F2C /* Model */,
+				4D00C32F2332A63B0021E638 /* View */,
+				4DEBDCDB2332375F003F260E /* Assets.xcassets */,
+				4D4BBB4F2338106900196731 /* Main.storyboard */,
+				4D0428EF233A2F4100F6F26B /* Podfile */,
+				4DEBDCDD2332375F003F260E /* LaunchScreen.storyboard */,
+				4DEBDCE02332375F003F260E /* Info.plist */,
+			);
+			path = iMonitor;
+			sourceTree = "<group>";
+		};
+		B0DB457E00B77E84006D9E57 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				91F4DA4AE40DE13D484C9C05 /* Pods-iMonitor.debug.xcconfig */,
+				FA791CDD7119A02FA72335C1 /* Pods-iMonitor.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DEBDCD02332375E003F260E /* iMonitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DEBDCE32332375F003F260E /* Build configuration list for PBXNativeTarget "iMonitor" */;
+			buildPhases = (
+				FB147029CA96887901A7B711 /* [CP] Check Pods Manifest.lock */,
+				4DEBDCCD2332375E003F260E /* Sources */,
+				4DEBDCCE2332375E003F260E /* Frameworks */,
+				4DEBDCCF2332375E003F260E /* Resources */,
+				7CDE29D21E1005FCF0E05E6F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iMonitor;
+			productName = iMonitor;
+			productReference = 4DEBDCD12332375E003F260E /* iMonitor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DEBDCC92332375E003F260E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Булат Сунгатуллин";
+				TargetAttributes = {
+					4DEBDCD02332375E003F260E = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 4DEBDCCC2332375E003F260E /* Build configuration list for PBXProject "iMonitor" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DEBDCC82332375E003F260E;
+			productRefGroup = 4DEBDCD22332375E003F260E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DEBDCD02332375E003F260E /* iMonitor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DEBDCCF2332375E003F260E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D6734BF2337F3B90080DA92 /* DateTableViewCell.xib in Resources */,
+				4D4BBB502338106900196731 /* Main.storyboard in Resources */,
+				4DEBDCDF2332375F003F260E /* LaunchScreen.storyboard in Resources */,
+				4DEBDCDC2332375F003F260E /* Assets.xcassets in Resources */,
+				4D6734BB233779870080DA92 /* DatePickerTableViewCell.xib in Resources */,
+				4D0428F0233A2F4100F6F26B /* Podfile in Resources */,
+				4D442D3823393E0700F989E7 /* PostTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7CDE29D21E1005FCF0E05E6F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iMonitor/Pods-iMonitor-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftChart/SwiftChart.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftChart.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iMonitor/Pods-iMonitor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB147029CA96887901A7B711 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iMonitor-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DEBDCCD2332375E003F260E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D442D3B23393ED200F989E7 /* PostTableViewCell.swift in Sources */,
+				4D442D362339130A00F989E7 /* ViewController.swift in Sources */,
+				4D442D3D233958BB00F989E7 /* LogsTableViewC.swift in Sources */,
+				4DEBDCE9233252E1003F260E /* TableVC.swift in Sources */,
+				4DEBDCE723324AD4003F260E /* ProjectCell.swift in Sources */,
+				4D6D814D234016B30003BF57 /* ChartLineVC.swift in Sources */,
+				4D6734B6233772550080DA92 /* DateTableViewCell.swift in Sources */,
+				4D35115F233E7F15001E0811 /* TabBarVC.swift in Sources */,
+				4D6734B8233774BC0080DA92 /* DatePickerTableViewCell.swift in Sources */,
+				4DEBDCD52332375E003F260E /* AppDelegate.swift in Sources */,
+				4D72E076233A36C800FA9CD0 /* LogsTableViewCell.swift in Sources */,
+				4DCD72D82333F59300A03F2C /* Models.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4DEBDCDD2332375F003F260E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DEBDCDE2332375F003F260E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4DEBDCE12332375F003F260E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4DEBDCE22332375F003F260E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DEBDCE42332375F003F260E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91F4DA4AE40DE13D484C9C05 /* Pods-iMonitor.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5U7QH7Q2AL;
+				INFOPLIST_FILE = iMonitor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = monitor.iMonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4DEBDCE52332375F003F260E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA791CDD7119A02FA72335C1 /* Pods-iMonitor.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5U7QH7Q2AL;
+				INFOPLIST_FILE = iMonitor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = monitor.iMonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DEBDCCC2332375E003F260E /* Build configuration list for PBXProject "iMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DEBDCE12332375F003F260E /* Debug */,
+				4DEBDCE22332375F003F260E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DEBDCE32332375F003F260E /* Build configuration list for PBXNativeTarget "iMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DEBDCE42332375F003F260E /* Debug */,
+				4DEBDCE52332375F003F260E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DEBDCC92332375E003F260E /* Project object */;
+}

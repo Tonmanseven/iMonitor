@@ -1,0 +1,6 @@
+framework module Pods_iMonitor {
+  umbrella header "Pods-iMonitor-umbrella.h"
+
+  export *
+  module * { export * }
+}
